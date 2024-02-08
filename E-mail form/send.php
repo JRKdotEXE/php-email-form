@@ -8,7 +8,6 @@ $header = "Form $email";
 
 if (mail($to, $subject, $message, $header)) {
     echo "Email sent";
-    header("Location:emailsent.html");
 }  else {
     echo "Sending failed";
 } 
