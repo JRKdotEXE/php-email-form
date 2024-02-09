@@ -3,8 +3,8 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
-$to = ""; #Destination
-$header = "Form $email";
+$to = "jiridev2024@gmail.com"; #Destination
+$header = "From: $email";
 
 if (mail($to, $subject, $message, $header)) {
     echo "Email sent";
