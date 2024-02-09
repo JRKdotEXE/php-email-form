@@ -4,6 +4,19 @@
     align-items: center;
   }
   
-  .child {
+.child {
     text-align: center;
   }
+
+body {
+  background-color: #ADD8E6;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10%;
+}
