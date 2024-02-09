@@ -3,7 +3,7 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
-$to = "jiridev2024@gmail.com"; #Destination
+$to = ""; #Destination
 $header = "From: $email";
 
 if (mail($to, $subject, $message, $header)) {
